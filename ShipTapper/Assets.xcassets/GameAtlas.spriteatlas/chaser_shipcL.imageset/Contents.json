@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "chaser_shipcL.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

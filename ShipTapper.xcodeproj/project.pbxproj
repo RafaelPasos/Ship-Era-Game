@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F11EF76A2E1220610053E4AB /* ShipTapperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF7692E1220610053E4AB /* ShipTapperApp.swift */; };
+		F11EF76C2E1220610053E4AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF76B2E1220610053E4AB /* ContentView.swift */; };
+		F11EF7712E1220620053E4AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11EF7702E1220620053E4AB /* Preview Assets.xcassets */; };
+		F11EF77B2E1220630053E4AB /* ShipTapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF77A2E1220630053E4AB /* ShipTapperTests.swift */; };
+		F11EF7852E1220630053E4AB /* ShipTapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF7842E1220630053E4AB /* ShipTapperUITests.swift */; };
+		F11EF7872E1220630053E4AB /* ShipTapperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF7862E1220630053E4AB /* ShipTapperUITestsLaunchTests.swift */; };
+		F14093012E162D5600ADE8C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14093002E162D5600ADE8C6 /* Assets.xcassets */; };
+		F1C13A6F2E189922006FE13A /* Water.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F1C13A6E2E189922006FE13A /* Water.fsh */; };
+		F1C13A702E189922006FE13A /* Water.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F1C13A6E2E189922006FE13A /* Water.fsh */; };
+		F1C13A712E189922006FE13A /* Water.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F1C13A6E2E189922006FE13A /* Water.fsh */; };
+		F1D20C2C2E12525A00A9A31B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D20C2B2E12525A00A9A31B /* GameScene.swift */; };
+		F1D20C2D2E12525A00A9A31B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D20C2B2E12525A00A9A31B /* GameScene.swift */; };
+		F1D20C2E2E12525A00A9A31B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D20C2B2E12525A00A9A31B /* GameScene.swift */; };
+		F1D20C302E16208C00A9A31B /* funcs in Resources */ = {isa = PBXBuildFile; fileRef = F1D20C2F2E16208C00A9A31B /* funcs */; };
+		F1D20C312E16208C00A9A31B /* funcs in Resources */ = {isa = PBXBuildFile; fileRef = F1D20C2F2E16208C00A9A31B /* funcs */; };
+		F1D20C322E16208C00A9A31B /* funcs in Resources */ = {isa = PBXBuildFile; fileRef = F1D20C2F2E16208C00A9A31B /* funcs */; };
+		F1EA83992E2C76DC004E7A53 /* SmokeParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F1EA83972E2C76DC004E7A53 /* SmokeParticle.sks */; };
+		F1EA839A2E2C76DC004E7A53 /* SmokeParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F1EA83972E2C76DC004E7A53 /* SmokeParticle.sks */; };
+		F1EA839B2E2C76DC004E7A53 /* SmokeParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F1EA83972E2C76DC004E7A53 /* SmokeParticle.sks */; };
+		F1EA839C2E2C76DC004E7A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EA83982E2C76DC004E7A53 /* Assets.xcassets */; };
+		F1EA839D2E2C76DC004E7A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EA83982E2C76DC004E7A53 /* Assets.xcassets */; };
+		F1EA839E2E2C76DC004E7A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EA83982E2C76DC004E7A53 /* Assets.xcassets */; };
+		F1EA83A02E2C79FF004E7A53 /* FireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F1EA839F2E2C79FF004E7A53 /* FireParticle.sks */; };
+		F1EA83A12E2C79FF004E7A53 /* FireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F1EA839F2E2C79FF004E7A53 /* FireParticle.sks */; };
+		F1EA83A22E2C79FF004E7A53 /* FireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F1EA839F2E2C79FF004E7A53 /* FireParticle.sks */; };
+		F1EA83A42E2C879A004E7A53 /* HealthParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F1EA83A32E2C879A004E7A53 /* HealthParticle.sks */; };
+		F1EA83A52E2C879A004E7A53 /* HealthParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F1EA83A32E2C879A004E7A53 /* HealthParticle.sks */; };
+		F1EA83A62E2C879A004E7A53 /* HealthParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F1EA83A32E2C879A004E7A53 /* HealthParticle.sks */; };
+		F1EA83AC2E2CAAED004E7A53 /* ExplosionParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F1EA83AB2E2CAAED004E7A53 /* ExplosionParticle.sks */; };
+		F1EA83AD2E2CAAED004E7A53 /* ExplosionParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F1EA83AB2E2CAAED004E7A53 /* ExplosionParticle.sks */; };
+		F1EA83AE2E2CAAED004E7A53 /* ExplosionParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F1EA83AB2E2CAAED004E7A53 /* ExplosionParticle.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F11EF7772E1220630053E4AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F11EF75E2E1220610053E4AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F11EF7652E1220610053E4AB;
+			remoteInfo = ShipTapper;
+		};
+		F11EF7812E1220630053E4AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F11EF75E2E1220610053E4AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F11EF7652E1220610053E4AB;
+			remoteInfo = ShipTapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F11EF7662E1220610053E4AB /* ShipTapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShipTapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11EF7692E1220610053E4AB /* ShipTapperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipTapperApp.swift; sourceTree = "<group>"; };
+		F11EF76B2E1220610053E4AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F11EF7702E1220620053E4AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F11EF7762E1220630053E4AB /* ShipTapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShipTapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11EF77A2E1220630053E4AB /* ShipTapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipTapperTests.swift; sourceTree = "<group>"; };
+		F11EF7802E1220630053E4AB /* ShipTapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShipTapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11EF7842E1220630053E4AB /* ShipTapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipTapperUITests.swift; sourceTree = "<group>"; };
+		F11EF7862E1220630053E4AB /* ShipTapperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipTapperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F14093002E162D5600ADE8C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1C13A6E2E189922006FE13A /* Water.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Water.fsh; sourceTree = "<group>"; };
+		F1D20C2B2E12525A00A9A31B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F1D20C2F2E16208C00A9A31B /* funcs */ = {isa = PBXFileReference; lastKnownFileType = text; path = funcs; sourceTree = "<group>"; };
+		F1EA83972E2C76DC004E7A53 /* SmokeParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmokeParticle.sks; sourceTree = "<group>"; };
+		F1EA83982E2C76DC004E7A53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1EA839F2E2C79FF004E7A53 /* FireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticle.sks; sourceTree = "<group>"; };
+		F1EA83A32E2C879A004E7A53 /* HealthParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HealthParticle.sks; sourceTree = "<group>"; };
+		F1EA83AB2E2CAAED004E7A53 /* ExplosionParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExplosionParticle.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F11EF7632E1220610053E4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11EF7732E1220630053E4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11EF77D2E1220630053E4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F11EF75D2E1220610053E4AB = {
+			isa = PBXGroup;
+			children = (
+				F1EA83AB2E2CAAED004E7A53 /* ExplosionParticle.sks */,
+				F1EA83A32E2C879A004E7A53 /* HealthParticle.sks */,
+				F1EA83972E2C76DC004E7A53 /* SmokeParticle.sks */,
+				F1EA839F2E2C79FF004E7A53 /* FireParticle.sks */,
+				F1EA83982E2C76DC004E7A53 /* Assets.xcassets */,
+				F1C13A6E2E189922006FE13A /* Water.fsh */,
+				F1D20C2F2E16208C00A9A31B /* funcs */,
+				F1D20C2B2E12525A00A9A31B /* GameScene.swift */,
+				F11EF7682E1220610053E4AB /* ShipTapper */,
+				F11EF7792E1220630053E4AB /* ShipTapperTests */,
+				F11EF7832E1220630053E4AB /* ShipTapperUITests */,
+				F11EF7672E1220610053E4AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F11EF7672E1220610053E4AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F11EF7662E1220610053E4AB /* ShipTapper.app */,
+				F11EF7762E1220630053E4AB /* ShipTapperTests.xctest */,
+				F11EF7802E1220630053E4AB /* ShipTapperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F11EF7682E1220610053E4AB /* ShipTapper */ = {
+			isa = PBXGroup;
+			children = (
+				F14093002E162D5600ADE8C6 /* Assets.xcassets */,
+				F11EF7692E1220610053E4AB /* ShipTapperApp.swift */,
+				F11EF76B2E1220610053E4AB /* ContentView.swift */,
+				F11EF76F2E1220620053E4AB /* Preview Content */,
+			);
+			path = ShipTapper;
+			sourceTree = "<group>";
+		};
+		F11EF76F2E1220620053E4AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F11EF7702E1220620053E4AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F11EF7792E1220630053E4AB /* ShipTapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				F11EF77A2E1220630053E4AB /* ShipTapperTests.swift */,
+			);
+			path = ShipTapperTests;
+			sourceTree = "<group>";
+		};
+		F11EF7832E1220630053E4AB /* ShipTapperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F11EF7842E1220630053E4AB /* ShipTapperUITests.swift */,
+				F11EF7862E1220630053E4AB /* ShipTapperUITestsLaunchTests.swift */,
+			);
+			path = ShipTapperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F11EF7652E1220610053E4AB /* ShipTapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11EF78A2E1220630053E4AB /* Build configuration list for PBXNativeTarget "ShipTapper" */;
+			buildPhases = (
+				F11EF7622E1220610053E4AB /* Sources */,
+				F11EF7632E1220610053E4AB /* Frameworks */,
+				F11EF7642E1220610053E4AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShipTapper;
+			productName = ShipTapper;
+			productReference = F11EF7662E1220610053E4AB /* ShipTapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F11EF7752E1220630053E4AB /* ShipTapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11EF78D2E1220630053E4AB /* Build configuration list for PBXNativeTarget "ShipTapperTests" */;
+			buildPhases = (
+				F11EF7722E1220630053E4AB /* Sources */,
+				F11EF7732E1220630053E4AB /* Frameworks */,
+				F11EF7742E1220630053E4AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F11EF7782E1220630053E4AB /* PBXTargetDependency */,
+			);
+			name = ShipTapperTests;
+			productName = ShipTapperTests;
+			productReference = F11EF7762E1220630053E4AB /* ShipTapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F11EF77F2E1220630053E4AB /* ShipTapperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11EF7902E1220630053E4AB /* Build configuration list for PBXNativeTarget "ShipTapperUITests" */;
+			buildPhases = (
+				F11EF77C2E1220630053E4AB /* Sources */,
+				F11EF77D2E1220630053E4AB /* Frameworks */,
+				F11EF77E2E1220630053E4AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F11EF7822E1220630053E4AB /* PBXTargetDependency */,
+			);
+			name = ShipTapperUITests;
+			productName = ShipTapperUITests;
+			productReference = F11EF7802E1220630053E4AB /* ShipTapperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F11EF75E2E1220610053E4AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F11EF7652E1220610053E4AB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F11EF7752E1220630053E4AB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F11EF7652E1220610053E4AB;
+					};
+					F11EF77F2E1220630053E4AB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F11EF7652E1220610053E4AB;
+					};
+				};
+			};
+			buildConfigurationList = F11EF7612E1220610053E4AB /* Build configuration list for PBXProject "ShipTapper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F11EF75D2E1220610053E4AB;
+			productRefGroup = F11EF7672E1220610053E4AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11EF7652E1220610053E4AB /* ShipTapper */,
+				F11EF7752E1220630053E4AB /* ShipTapperTests */,
+				F11EF77F2E1220630053E4AB /* ShipTapperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F11EF7642E1220610053E4AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D20C302E16208C00A9A31B /* funcs in Resources */,
+				F1EA83A02E2C79FF004E7A53 /* FireParticle.sks in Resources */,
+				F14093012E162D5600ADE8C6 /* Assets.xcassets in Resources */,
+				F1EA83A42E2C879A004E7A53 /* HealthParticle.sks in Resources */,
+				F1EA83992E2C76DC004E7A53 /* SmokeParticle.sks in Resources */,
+				F11EF7712E1220620053E4AB /* Preview Assets.xcassets in Resources */,
+				F1EA839C2E2C76DC004E7A53 /* Assets.xcassets in Resources */,
+				F1C13A6F2E189922006FE13A /* Water.fsh in Resources */,
+				F1EA83AC2E2CAAED004E7A53 /* ExplosionParticle.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11EF7742E1220630053E4AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D20C312E16208C00A9A31B /* funcs in Resources */,
+				F1EA839A2E2C76DC004E7A53 /* SmokeParticle.sks in Resources */,
+				F1EA83A12E2C79FF004E7A53 /* FireParticle.sks in Resources */,
+				F1EA83A52E2C879A004E7A53 /* HealthParticle.sks in Resources */,
+				F1EA83AD2E2CAAED004E7A53 /* ExplosionParticle.sks in Resources */,
+				F1EA839D2E2C76DC004E7A53 /* Assets.xcassets in Resources */,
+				F1C13A702E189922006FE13A /* Water.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11EF77E2E1220630053E4AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D20C322E16208C00A9A31B /* funcs in Resources */,
+				F1EA839B2E2C76DC004E7A53 /* SmokeParticle.sks in Resources */,
+				F1EA83A22E2C79FF004E7A53 /* FireParticle.sks in Resources */,
+				F1EA83A62E2C879A004E7A53 /* HealthParticle.sks in Resources */,
+				F1EA83AE2E2CAAED004E7A53 /* ExplosionParticle.sks in Resources */,
+				F1EA839E2E2C76DC004E7A53 /* Assets.xcassets in Resources */,
+				F1C13A712E189922006FE13A /* Water.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F11EF7622E1220610053E4AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D20C2C2E12525A00A9A31B /* GameScene.swift in Sources */,
+				F11EF76C2E1220610053E4AB /* ContentView.swift in Sources */,
+				F11EF76A2E1220610053E4AB /* ShipTapperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11EF7722E1220630053E4AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D20C2D2E12525A00A9A31B /* GameScene.swift in Sources */,
+				F11EF77B2E1220630053E4AB /* ShipTapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11EF77C2E1220630053E4AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D20C2E2E12525A00A9A31B /* GameScene.swift in Sources */,
+				F11EF7872E1220630053E4AB /* ShipTapperUITestsLaunchTests.swift in Sources */,
+				F11EF7852E1220630053E4AB /* ShipTapperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F11EF7782E1220630053E4AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F11EF7652E1220610053E4AB /* ShipTapper */;
+			targetProxy = F11EF7772E1220630053E4AB /* PBXContainerItemProxy */;
+		};
+		F11EF7822E1220630053E4AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F11EF7652E1220610053E4AB /* ShipTapper */;
+			targetProxy = F11EF7812E1220630053E4AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F11EF7882E1220630053E4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F11EF7892E1220630053E4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F11EF78B2E1220630053E4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShipTapper/Preview Content\"";
+				DEVELOPMENT_TEAM = X7C8V8ZYQ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enepese.ShipTapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F11EF78C2E1220630053E4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShipTapper/Preview Content\"";
+				DEVELOPMENT_TEAM = X7C8V8ZYQ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enepese.ShipTapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F11EF78E2E1220630053E4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enepese.ShipTapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShipTapper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShipTapper";
+			};
+			name = Debug;
+		};
+		F11EF78F2E1220630053E4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enepese.ShipTapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShipTapper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShipTapper";
+			};
+			name = Release;
+		};
+		F11EF7912E1220630053E4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enepese.ShipTapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShipTapper;
+			};
+			name = Debug;
+		};
+		F11EF7922E1220630053E4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enepese.ShipTapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShipTapper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F11EF7612E1220610053E4AB /* Build configuration list for PBXProject "ShipTapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11EF7882E1220630053E4AB /* Debug */,
+				F11EF7892E1220630053E4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11EF78A2E1220630053E4AB /* Build configuration list for PBXNativeTarget "ShipTapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11EF78B2E1220630053E4AB /* Debug */,
+				F11EF78C2E1220630053E4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11EF78D2E1220630053E4AB /* Build configuration list for PBXNativeTarget "ShipTapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11EF78E2E1220630053E4AB /* Debug */,
+				F11EF78F2E1220630053E4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11EF7902E1220630053E4AB /* Build configuration list for PBXNativeTarget "ShipTapperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11EF7912E1220630053E4AB /* Debug */,
+				F11EF7922E1220630053E4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F11EF75E2E1220610053E4AB /* Project object */;
+}
