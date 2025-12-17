@@ -1,3 +1,4 @@
+![Gameplay Demo GIF](assets/TitleScreenM.png)
 # Naval Adventure
 
 Welcome to Naval Adventure, a 2.5D top-down naval action game for iOS! Take command of your own ship, navigate treacherous waters, and battle waves of enemy vessels. Collect loot, upgrade your ship, and become the most feared captain on the high seas.
