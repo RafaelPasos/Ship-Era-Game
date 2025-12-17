@@ -39,15 +39,15 @@ Check out a quick demo of the core gameplay loop:
     - **Ordnance:** Purchase different cannonball types and decrease reload time.
     - **Carpenter:** Increase the number of cannons fired per volley.
     - **Shipyard:** Increase the ship's base movement speed.
-    - **Consumables:** Purchase a "Full Repair" in the heat of the moment.
+    - **Consumables:** Purchase a "Full Repair" and get ready to set sail with full healthpoints.
 
 ## Architecture
 
-This project is built with a modern, clean, and scalable hybrid architecture that leverages the distinct strengths of Apple's leading frameworks for UI and game development.
+This project is built with a modern, clean, and scalable hybrid architecture that leverages the distinct strengths of Apple's frameworks for UI and game development.
 
 - **SpriteKit (The Game Engine):** The real-time game world is managed entirely by SpriteKit. This includes rendering all game objects (ships, islands, projectiles), running the core game loop, managing physics and collision detection, and executing all real-time game logic like AI and combat calculations.
 
-- **SwiftUI (The UI Layer):** All user interface elements are built with SwiftUI for rapid, modern, and maintainable development. This includes the main menu, the in-game heads-up display (HUD), the upgrade store, and all overlay menus.
+- **SwiftUI (The UI Layer):** All user interface elements are built with SwiftUI for rapid, modern, and maintainable development. This includes the main menu, the in-game display (HUD), the upgrade store, and all overlay menus.
 
 - **Data Flow & State Management:** The connection between the two frameworks is carefully managed for a clear separation of concerns:
     - A `SpriteView` is used within the SwiftUI view hierarchy to host the SpriteKit scene.
